@@ -147,7 +147,7 @@ void read_power(alt_u8 ch , alt_u16 *pRegValue){
 
  /**************************************************************************
  Function     : Bluetooth Command Parsing
- parameter    : Command ��Command ID
+ parameter    : Command ID
  return value : Command Parsing data
  **************************************************************************/
 bool CommandParsing(char *pCommand, int *pCommandID, int *pParam){
@@ -271,7 +271,7 @@ void set_para(){
 
 /**************************************************************************
 Function     : Upright Closed-loop Control (PD)
-parameter    : The Angle value��The angular velocity value
+parameter    : The angular velocity value
 return value : Upright Closed-loop Control PWM
 **************************************************************************/
 int balance(float Angle,float Gyro)
